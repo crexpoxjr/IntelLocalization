@@ -81,6 +81,16 @@ body > p {
   color: #c7d2ff;
 }
 
+.heading-icon {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+}
+
+.logical-start {
+  text-align: start !important;
+}
+
 @media (max-width: 900px) {
   .timeline {
     flex-direction: column;
